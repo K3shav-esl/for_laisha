@@ -14,6 +14,7 @@ setInterval(() => {
         <iframe src="background.mp3" allow="autoplay" style="display:none" id="iframeAudio">
     </iframe> 
 `
+        console.log("audio pushed")
     }
     if (index != contentArray.length) {
         content.innerHTML = contentArray[index]
